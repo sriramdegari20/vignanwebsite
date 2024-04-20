@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.outbox{
+    border: solid 1px;
+    height: 120px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 120px;
+}
+#box1{
+    width: 400px;
+
+}
+#box2{
+    width: 960px;
+    background-color: #933993;
+    text-align: center;
+}
+#clgname{
+    color: white;
+    font-size: 30px;
+}
+#text1{
+    font-size: 22px;
+    color: aliceblue;
+}
+#scrolltext{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation{
+    border: solid ;
+    height: 55px;
+}
+ul li{
+    border: solid 1px;
+    height: 55px;
+    float: left;
+    width: 113px;
+    text-align: center;
+    line-height: 55px;
+    background-color: #6494eda5;
+    position: relative;
+    
+}
+ul{
+    list-style: none;
+    
+}
+ul li a{
+    color: #000080;
+    font-size: 22px;
+    text-decoration: none;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+}
+ul li ul li{
+    width: 190px;
+    background-color: #d32c2c;
+}
+ul li ul li ul li{
+    width: 350px;
+    margin-left: 190px;
+}
+ul ul ul{
+    top: 0px;
+}
+ul li:hover{
+    background-color: yellowgreen;
+    
+}
+ul li ul li:hover{
+    background-color: aqua;
+    
+}
+ul li ul li ul li:hover{
+    background-color: #ac0f8f;
+    
+} 
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+}
+#in1{
+    width: 600px;
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    animation-name: imageschanging;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imageschanging{
+    10%{
+        background-image: url(rf7ie68io6r7.jpeg);
+    }
+    20%{
+        background-image: url(n\ dv57fcg4r\ j.jpeg);
+    }
+    30%{
+        background-image: url(rf7ie68io6r7.jpeg);
+    }
+}
+#in2,#in3{
+    width: 300px;
+}
+.out{
+    border: solid 1px;
+    height: 150px;
+    background-color: black;
+    
+
+}
+#logo{
+padding-right: 95px;
+}
+body{
+    background-color: aqua;
+}
